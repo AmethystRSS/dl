@@ -1,0 +1,335 @@
+{
+  "title": "Discover New Feeds",
+  "subtitle": "Curated sources hand-picked for Amethyst readers.",
+  "updatedAt": "2026-03-22T00:00:00Z",
+  "groups": [
+    {
+      "name": "News",
+      "description": "Breaking news and in-depth reporting from trusted outlets.",
+      "feeds": [
+        {
+          "id": "nyt-homepage",
+          "name": "The New York Times",
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+          "website": "https://www.nytimes.com",
+          "summary": "Top stories and breaking news from the NYT homepage."
+        },
+        {
+          "id": "bbc-world",
+          "name": "BBC World",
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "website": "https://www.bbc.com/news/world",
+          "summary": "International news coverage from the BBC."
+        },
+        {
+          "id": "reuters-world",
+          "name": "Reuters",
+          "url": "https://www.reutersagency.com/feed/",
+          "website": "https://www.reuters.com",
+          "summary": "Wire-service reporting on global affairs."
+        },
+        {
+          "id": "ap-topnews",
+          "name": "Associated Press",
+          "url": "https://rsshub.app/apnews/topics/apf-topnews",
+          "website": "https://apnews.com",
+          "summary": "Top stories from the AP wire."
+        },
+        {
+          "id": "pbs-newshour",
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+          "website": "https://www.pbs.org/newshour",
+          "summary": "Balanced public-interest journalism."
+        },
+        {
+          "id": "npr-news",
+          "name": "NPR News",
+          "url": "https://feeds.npr.org/1001/rss.xml",
+          "website": "https://www.npr.org",
+          "summary": "National and international stories from NPR."
+        },
+        {
+          "id": "guardian-world",
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/rss",
+          "website": "https://www.theguardian.com",
+          "summary": "World news and investigative reporting."
+        }
+      ]
+    },
+    {
+      "name": "Technology",
+      "description": "Hardware, software, AI, and platform news.",
+      "feeds": [
+        {
+          "id": "the-verge",
+          "name": "The Verge",
+          "url": "https://www.theverge.com/rss/index.xml",
+          "website": "https://www.theverge.com",
+          "summary": "Consumer tech, products, and platform shifts."
+        },
+        {
+          "id": "ars-technica",
+          "name": "Ars Technica",
+          "url": "https://feeds.arstechnica.com/arstechnica/index",
+          "website": "https://arstechnica.com",
+          "summary": "Deep dives into technology, science, and policy."
+        },
+        {
+          "id": "9to5mac",
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/feed/",
+          "website": "https://9to5mac.com",
+          "summary": "Apple news, reviews, and how-tos."
+        },
+        {
+          "id": "techcrunch",
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/feed/",
+          "website": "https://techcrunch.com",
+          "summary": "Startup funding, product launches, and tech industry moves."
+        },
+        {
+          "id": "wired",
+          "name": "WIRED",
+          "url": "https://www.wired.com/feed/rss",
+          "website": "https://www.wired.com",
+          "summary": "Long-form tech, science, and culture journalism."
+        },
+        {
+          "id": "hacker-news",
+          "name": "Hacker News",
+          "url": "https://hnrss.org/frontpage",
+          "website": "https://news.ycombinator.com",
+          "summary": "Top stories from the engineering and startup community."
+        },
+        {
+          "id": "engadget",
+          "name": "Engadget",
+          "url": "https://www.engadget.com/rss.xml",
+          "website": "https://www.engadget.com",
+          "summary": "Gadgets, consumer electronics, and product reviews."
+        },
+        {
+          "id": "macrumors",
+          "name": "MacRumors",
+          "url": "https://feeds.macrumors.com/MacRumors-All",
+          "website": "https://www.macrumors.com",
+          "summary": "Apple rumors, news, and buying guides."
+        }
+      ]
+    },
+    {
+      "name": "Business & Finance",
+      "description": "Markets, economy, and company strategy.",
+      "feeds": [
+        {
+          "id": "wsj-markets",
+          "name": "Wall Street Journal",
+          "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+          "website": "https://www.wsj.com",
+          "summary": "Market headlines and investing coverage."
+        },
+        {
+          "id": "ft-home",
+          "name": "Financial Times",
+          "url": "https://www.ft.com/?format=rss",
+          "website": "https://www.ft.com",
+          "summary": "Global business and finance reporting."
+        },
+        {
+          "id": "cnbc-top",
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+          "website": "https://www.cnbc.com",
+          "summary": "Business news, market data, and analysis."
+        },
+        {
+          "id": "economist-finance",
+          "name": "The Economist",
+          "url": "https://www.economist.com/finance-and-economics/rss.xml",
+          "website": "https://www.economist.com",
+          "summary": "Analysis of global economics and policy."
+        },
+        {
+          "id": "bloomberg-markets",
+          "name": "Bloomberg",
+          "url": "https://feeds.bloomberg.com/markets/news.rss",
+          "website": "https://www.bloomberg.com",
+          "summary": "Financial markets and global business."
+        }
+      ]
+    },
+    {
+      "name": "Science",
+      "description": "Research, space, environment, and health.",
+      "feeds": [
+        {
+          "id": "nasa-breaking",
+          "name": "NASA",
+          "url": "https://www.nasa.gov/news-release/feed/",
+          "website": "https://www.nasa.gov",
+          "summary": "Space missions, discoveries, and science updates."
+        },
+        {
+          "id": "nature-news",
+          "name": "Nature",
+          "url": "https://www.nature.com/nature.rss",
+          "website": "https://www.nature.com",
+          "summary": "Peer-reviewed research and science news."
+        },
+        {
+          "id": "science-daily",
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/rss/all.xml",
+          "website": "https://www.sciencedaily.com",
+          "summary": "Breaking science news across all disciplines."
+        },
+        {
+          "id": "quanta-magazine",
+          "name": "Quanta Magazine",
+          "url": "https://api.quantamagazine.org/feed",
+          "website": "https://www.quantamagazine.org",
+          "summary": "Mathematics, physics, and computer science for a general audience."
+        }
+      ]
+    },
+    {
+      "name": "Culture & Entertainment",
+      "description": "Film, TV, gaming, music, and internet culture.",
+      "feeds": [
+        {
+          "id": "polygon",
+          "name": "Polygon",
+          "url": "https://www.polygon.com/rss/index.xml",
+          "website": "https://www.polygon.com",
+          "summary": "Gaming, entertainment, and digital culture."
+        },
+        {
+          "id": "variety",
+          "name": "Variety",
+          "url": "https://variety.com/feed/",
+          "website": "https://variety.com",
+          "summary": "Entertainment industry news and analysis."
+        },
+        {
+          "id": "hollywood-reporter",
+          "name": "The Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/feed/",
+          "website": "https://www.hollywoodreporter.com",
+          "summary": "Film, TV, and entertainment business."
+        },
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://feeds.feedburner.com/ign/all",
+          "website": "https://www.ign.com",
+          "summary": "Gaming reviews, news, and walkthroughs."
+        },
+        {
+          "id": "pitchfork",
+          "name": "Pitchfork",
+          "url": "https://pitchfork.com/feed/feed-news/rss",
+          "website": "https://pitchfork.com",
+          "summary": "Music reviews, features, and new releases."
+        }
+      ]
+    },
+    {
+      "name": "Design & Development",
+      "description": "Web, mobile, and product design inspiration.",
+      "feeds": [
+        {
+          "id": "smashing-magazine",
+          "name": "Smashing Magazine",
+          "url": "https://www.smashingmagazine.com/feed/",
+          "website": "https://www.smashingmagazine.com",
+          "summary": "Web development, UX, and front-end techniques."
+        },
+        {
+          "id": "css-tricks",
+          "name": "CSS-Tricks",
+          "url": "https://css-tricks.com/feed/",
+          "website": "https://css-tricks.com",
+          "summary": "Front-end tips, tricks, and tutorials."
+        },
+        {
+          "id": "swift-by-sundell",
+          "name": "Swift by Sundell",
+          "url": "https://www.swiftbysundell.com/rss",
+          "website": "https://www.swiftbysundell.com",
+          "summary": "Swift and iOS development articles."
+        },
+        {
+          "id": "daring-fireball",
+          "name": "Daring Fireball",
+          "url": "https://daringfireball.net/feeds/main",
+          "website": "https://daringfireball.net",
+          "summary": "Commentary on Apple, technology, and design."
+        }
+      ]
+    },
+    {
+      "name": "Independent & Blogs",
+      "description": "Independent writers and long-form thinkers.",
+      "feeds": [
+        {
+          "id": "every-main",
+          "name": "Every",
+          "url": "https://every.to/feed.xml",
+          "website": "https://every.to",
+          "summary": "Ideas about tech, AI, and modern work."
+        },
+        {
+          "id": "stratechery",
+          "name": "Stratechery",
+          "url": "https://stratechery.com/feed/",
+          "website": "https://stratechery.com",
+          "summary": "Business strategy and technology analysis by Ben Thompson."
+        },
+        {
+          "id": "kottke",
+          "name": "Kottke.org",
+          "url": "https://feeds.kottke.org/main",
+          "website": "https://kottke.org",
+          "summary": "One of the web's oldest blogs — a curation of the interesting."
+        },
+        {
+          "id": "brain-pickings",
+          "name": "The Marginalian",
+          "url": "https://www.themarginalian.org/feed/",
+          "website": "https://www.themarginalian.org",
+          "summary": "Literature, philosophy, and the creative life."
+        }
+      ]
+    },
+    {
+      "name": "Politics",
+      "description": "U.S. and global political coverage.",
+      "feeds": [
+        {
+          "id": "politico",
+          "name": "POLITICO",
+          "url": "https://rss.politico.com/politics-news.xml",
+          "website": "https://www.politico.com",
+          "summary": "Washington politics, policy, and campaigns."
+        },
+        {
+          "id": "the-hill",
+          "name": "The Hill",
+          "url": "https://thehill.com/feed/",
+          "website": "https://thehill.com",
+          "summary": "Congressional news and political analysis."
+        },
+        {
+          "id": "fivethirtyeight",
+          "name": "FiveThirtyEight",
+          "url": "https://fivethirtyeight.com/feed/",
+          "website": "https://fivethirtyeight.com",
+          "summary": "Data-driven political analysis and polling."
+        }
+      ]
+    }
+  ]
+}
