@@ -80,8 +80,84 @@
       ]
     },
     {
-      "name": "Technology",
-      "description": "Hardware, software, AI, and platform news.",
+      "name": "World & Politics",
+      "description": "U.S. politics, international affairs, and policy analysis.",
+      "feeds": [
+        {
+          "id": "politico",
+          "name": "POLITICO",
+          "url": "https://rss.politico.com/politics-news.xml",
+          "website": "https://www.politico.com",
+          "summary": "Washington politics, policy, and campaigns."
+        },
+        {
+          "id": "the-hill",
+          "name": "The Hill",
+          "url": "https://thehill.com/feed/",
+          "website": "https://thehill.com",
+          "summary": "Congressional news and political analysis."
+        },
+        {
+          "id": "fivethirtyeight",
+          "name": "FiveThirtyEight",
+          "url": "https://fivethirtyeight.com/feed/",
+          "website": "https://fivethirtyeight.com",
+          "summary": "Data-driven political analysis and polling."
+        },
+        {
+          "id": "axios",
+          "name": "Axios",
+          "url": "https://api.axios.com/feed/",
+          "website": "https://www.axios.com",
+          "summary": "Smart brevity — concise news on politics, tech, and business."
+        },
+        {
+          "id": "lawfare",
+          "name": "Lawfare",
+          "url": "https://www.lawfaremedia.org/feed",
+          "website": "https://www.lawfaremedia.org",
+          "summary": "National security law and policy analysis."
+        },
+        {
+          "id": "japan-times",
+          "name": "The Japan Times",
+          "url": "https://www.japantimes.co.jp/feed/",
+          "website": "https://www.japantimes.co.jp",
+          "summary": "Japan's leading English-language newspaper."
+        },
+        {
+          "id": "scmp",
+          "name": "South China Morning Post",
+          "url": "https://www.scmp.com/rss/91/feed",
+          "website": "https://www.scmp.com",
+          "summary": "Asia-Pacific news and China coverage."
+        },
+        {
+          "id": "der-spiegel",
+          "name": "Der Spiegel International",
+          "url": "https://www.spiegel.de/international/index.rss",
+          "website": "https://www.spiegel.de/international",
+          "summary": "German and European news in English."
+        },
+        {
+          "id": "france24",
+          "name": "France 24",
+          "url": "https://www.france24.com/en/rss",
+          "website": "https://www.france24.com/en",
+          "summary": "International news from a French perspective."
+        },
+        {
+          "id": "rest-of-world",
+          "name": "Rest of World",
+          "url": "https://restofworld.org/feed/latest/",
+          "website": "https://restofworld.org",
+          "summary": "How technology is reshaping life outside the West."
+        }
+      ]
+    },
+    {
+      "name": "Technology & AI",
+      "description": "Hardware, software, artificial intelligence, and platform news.",
       "feeds": [
         {
           "id": "the-verge",
@@ -159,13 +235,7 @@
           "url": "https://www.anandtech.com/rss/",
           "website": "https://www.anandtech.com",
           "summary": "In-depth semiconductor and hardware analysis."
-        }
-      ]
-    },
-    {
-      "name": "AI & Machine Learning",
-      "description": "The latest in artificial intelligence, LLMs, and research.",
-      "feeds": [
+        },
         {
           "id": "openai-blog",
           "name": "OpenAI Blog",
@@ -212,7 +282,7 @@
     },
     {
       "name": "Business & Finance",
-      "description": "Markets, economy, and company strategy.",
+      "description": "Markets, economy, startups, crypto, and personal finance.",
       "feeds": [
         {
           "id": "wsj-markets",
@@ -269,13 +339,7 @@
           "url": "https://www.bloomberg.com/account/newsletters/money-stuff.rss",
           "website": "https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine",
           "summary": "Bloomberg's popular financial newsletter with wit and insight."
-        }
-      ]
-    },
-    {
-      "name": "Startups & Venture Capital",
-      "description": "Funding rounds, founder stories, and the startup ecosystem.",
-      "feeds": [
+        },
         {
           "id": "stratechery",
           "name": "Stratechery",
@@ -310,12 +374,54 @@
           "url": "https://www.paulgraham.com/rss.html",
           "website": "https://www.paulgraham.com",
           "summary": "Essays on startups, programming, and ideas from the YC co-founder."
+        },
+        {
+          "id": "coindesk",
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "website": "https://www.coindesk.com",
+          "summary": "Cryptocurrency news, prices, and market analysis."
+        },
+        {
+          "id": "the-defiant",
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/feed",
+          "website": "https://thedefiant.io",
+          "summary": "DeFi and Ethereum ecosystem coverage."
+        },
+        {
+          "id": "vitalik-buterin",
+          "name": "Vitalik Buterin",
+          "url": "https://vitalik.eth.limo/feed.xml",
+          "website": "https://vitalik.eth.limo",
+          "summary": "Ethereum's co-founder on crypto, governance, and philosophy."
+        },
+        {
+          "id": "mr-money-mustache",
+          "name": "Mr. Money Mustache",
+          "url": "https://www.mrmoneymustache.com/feed/",
+          "website": "https://www.mrmoneymustache.com",
+          "summary": "Financial independence through badassity."
+        },
+        {
+          "id": "of-dollars-and-data",
+          "name": "Of Dollars and Data",
+          "url": "https://ofdollarsanddata.com/feed/",
+          "website": "https://ofdollarsanddata.com",
+          "summary": "Data-driven personal finance and investing."
+        },
+        {
+          "id": "the-motley-fool",
+          "name": "The Motley Fool",
+          "url": "https://www.fool.com/feeds/index.aspx",
+          "website": "https://www.fool.com",
+          "summary": "Stock analysis, investing tips, and retirement planning."
         }
       ]
     },
     {
-      "name": "Science",
-      "description": "Research, space, environment, and health.",
+      "name": "Science & Nature",
+      "description": "Research, space, health, climate, and the natural world.",
       "feeds": [
         {
           "id": "nasa-breaking",
@@ -365,13 +471,7 @@
           "url": "https://phys.org/rss-feed/",
           "website": "https://phys.org",
           "summary": "Physics, astronomy, and Earth science research news."
-        }
-      ]
-    },
-    {
-      "name": "Space & Astronomy",
-      "description": "The cosmos, missions, and discoveries beyond Earth.",
-      "feeds": [
+        },
         {
           "id": "space-com",
           "name": "Space.com",
@@ -399,13 +499,7 @@
           "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
           "website": "https://www.esa.int",
           "summary": "Missions and discoveries from ESA."
-        }
-      ]
-    },
-    {
-      "name": "Health & Medicine",
-      "description": "Medical research, public health, and wellness.",
-      "feeds": [
+        },
         {
           "id": "stat-news",
           "name": "STAT News",
@@ -426,13 +520,7 @@
           "url": "https://www.nih.gov/news-events/news-releases/feed",
           "website": "https://www.nih.gov",
           "summary": "Research findings and health news from the NIH."
-        }
-      ]
-    },
-    {
-      "name": "Climate & Environment",
-      "description": "Climate science, energy transition, and sustainability.",
-      "feeds": [
+        },
         {
           "id": "carbon-brief",
           "name": "Carbon Brief",
@@ -464,90 +552,8 @@
       ]
     },
     {
-      "name": "Politics",
-      "description": "U.S. and global political coverage.",
-      "feeds": [
-        {
-          "id": "politico",
-          "name": "POLITICO",
-          "url": "https://rss.politico.com/politics-news.xml",
-          "website": "https://www.politico.com",
-          "summary": "Washington politics, policy, and campaigns."
-        },
-        {
-          "id": "the-hill",
-          "name": "The Hill",
-          "url": "https://thehill.com/feed/",
-          "website": "https://thehill.com",
-          "summary": "Congressional news and political analysis."
-        },
-        {
-          "id": "fivethirtyeight",
-          "name": "FiveThirtyEight",
-          "url": "https://fivethirtyeight.com/feed/",
-          "website": "https://fivethirtyeight.com",
-          "summary": "Data-driven political analysis and polling."
-        },
-        {
-          "id": "axios",
-          "name": "Axios",
-          "url": "https://api.axios.com/feed/",
-          "website": "https://www.axios.com",
-          "summary": "Smart brevity — concise news on politics, tech, and business."
-        },
-        {
-          "id": "lawfare",
-          "name": "Lawfare",
-          "url": "https://www.lawfaremedia.org/feed",
-          "website": "https://www.lawfaremedia.org",
-          "summary": "National security law and policy analysis."
-        }
-      ]
-    },
-    {
-      "name": "World & International",
-      "description": "Perspectives from outside the U.S.",
-      "feeds": [
-        {
-          "id": "japan-times",
-          "name": "The Japan Times",
-          "url": "https://www.japantimes.co.jp/feed/",
-          "website": "https://www.japantimes.co.jp",
-          "summary": "Japan's leading English-language newspaper."
-        },
-        {
-          "id": "scmp",
-          "name": "South China Morning Post",
-          "url": "https://www.scmp.com/rss/91/feed",
-          "website": "https://www.scmp.com",
-          "summary": "Asia-Pacific news and China coverage."
-        },
-        {
-          "id": "der-spiegel",
-          "name": "Der Spiegel International",
-          "url": "https://www.spiegel.de/international/index.rss",
-          "website": "https://www.spiegel.de/international",
-          "summary": "German and European news in English."
-        },
-        {
-          "id": "france24",
-          "name": "France 24",
-          "url": "https://www.france24.com/en/rss",
-          "website": "https://www.france24.com/en",
-          "summary": "International news from a French perspective."
-        },
-        {
-          "id": "rest-of-world",
-          "name": "Rest of World",
-          "url": "https://restofworld.org/feed/latest/",
-          "website": "https://restofworld.org",
-          "summary": "How technology is reshaping life outside the West."
-        }
-      ]
-    },
-    {
-      "name": "Culture & Entertainment",
-      "description": "Film, TV, music, and internet culture.",
+      "name": "Entertainment & Gaming",
+      "description": "Film, TV, music, video games, and sports.",
       "feeds": [
         {
           "id": "polygon",
@@ -597,13 +603,7 @@
           "url": "https://www.avclub.com/rss",
           "website": "https://www.avclub.com",
           "summary": "TV, film, and pop culture reviews and commentary."
-        }
-      ]
-    },
-    {
-      "name": "Gaming",
-      "description": "Video games, esports, and the gaming industry.",
-      "feeds": [
+        },
         {
           "id": "ign",
           "name": "IGN",
@@ -645,13 +645,7 @@
           "url": "https://www.gamespot.com/feeds/mashup/",
           "website": "https://www.gamespot.com",
           "summary": "Game reviews, previews, and industry coverage."
-        }
-      ]
-    },
-    {
-      "name": "Sports",
-      "description": "Scores, analysis, and long-form sports writing.",
-      "feeds": [
+        },
         {
           "id": "espn-top",
           "name": "ESPN",
@@ -683,8 +677,8 @@
       ]
     },
     {
-      "name": "Design & Development",
-      "description": "Web, mobile, and product design inspiration.",
+      "name": "Software & Security",
+      "description": "Web development, mobile, programming, and cybersecurity.",
       "feeds": [
         {
           "id": "smashing-magazine",
@@ -734,13 +728,7 @@
           "url": "https://www.donnywals.com/feed/",
           "website": "https://www.donnywals.com",
           "summary": "Practical Swift, SwiftUI, and iOS development tutorials."
-        }
-      ]
-    },
-    {
-      "name": "Data Science & Programming",
-      "description": "Languages, tools, and the craft of building software.",
-      "feeds": [
+        },
         {
           "id": "lobsters",
           "name": "Lobste.rs",
@@ -782,13 +770,7 @@
           "url": "https://martinfowler.com/feed.atom",
           "website": "https://martinfowler.com",
           "summary": "Software architecture, refactoring, and engineering practices."
-        }
-      ]
-    },
-    {
-      "name": "Cybersecurity",
-      "description": "Threats, vulnerabilities, and the security landscape.",
-      "feeds": [
+        },
         {
           "id": "krebs-on-security",
           "name": "Krebs on Security",
@@ -820,35 +802,70 @@
       ]
     },
     {
-      "name": "Crypto & Web3",
-      "description": "Blockchain, DeFi, and the decentralized web.",
+      "name": "Arts & Culture",
+      "description": "Books, photography, history, visual arts, and the creative life.",
       "feeds": [
         {
-          "id": "coindesk",
-          "name": "CoinDesk",
-          "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
-          "website": "https://www.coindesk.com",
-          "summary": "Cryptocurrency news, prices, and market analysis."
+          "id": "lithub",
+          "name": "Literary Hub",
+          "url": "https://lithub.com/feed/",
+          "website": "https://lithub.com",
+          "summary": "The best of the literary internet — reviews, excerpts, and essays."
         },
         {
-          "id": "the-defiant",
-          "name": "The Defiant",
-          "url": "https://thedefiant.io/feed",
-          "website": "https://thedefiant.io",
-          "summary": "DeFi and Ethereum ecosystem coverage."
+          "id": "the-paris-review",
+          "name": "The Paris Review",
+          "url": "https://www.theparisreview.org/feed/",
+          "website": "https://www.theparisreview.org",
+          "summary": "Interviews, fiction, poetry, and literary art."
         },
         {
-          "id": "vitalik-buterin",
-          "name": "Vitalik Buterin",
-          "url": "https://vitalik.eth.limo/feed.xml",
-          "website": "https://vitalik.eth.limo",
-          "summary": "Ethereum's co-founder on crypto, governance, and philosophy."
+          "id": "book-riot",
+          "name": "Book Riot",
+          "url": "https://bookriot.com/feed/",
+          "website": "https://bookriot.com",
+          "summary": "Book recommendations, reading lists, and literary news."
+        },
+        {
+          "id": "petapixel",
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/feed/",
+          "website": "https://petapixel.com",
+          "summary": "Photography news, reviews, and inspiration."
+        },
+        {
+          "id": "colossal",
+          "name": "Colossal",
+          "url": "https://www.thisiscolossal.com/feed/",
+          "website": "https://www.thisiscolossal.com",
+          "summary": "Art, design, and visual culture from around the world."
+        },
+        {
+          "id": "the-photo-argus",
+          "name": "The Phoblographer",
+          "url": "https://www.thephoblographer.com/feed/",
+          "website": "https://www.thephoblographer.com",
+          "summary": "Camera reviews, photography tutorials, and industry news."
+        },
+        {
+          "id": "smithsonian-history",
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/rss/history/",
+          "website": "https://www.smithsonianmag.com/history",
+          "summary": "History, archaeology, and culture from the Smithsonian."
+        },
+        {
+          "id": "history-today",
+          "name": "History Today",
+          "url": "https://www.historytoday.com/feed/rss.xml",
+          "website": "https://www.historytoday.com",
+          "summary": "History writing for a general audience since 1951."
         }
       ]
     },
     {
-      "name": "Food & Cooking",
-      "description": "Recipes, food writing, and culinary culture.",
+      "name": "Lifestyle",
+      "description": "Food, cooking, travel, and the outdoors.",
       "feeds": [
         {
           "id": "serious-eats",
@@ -877,13 +894,7 @@
           "url": "https://www.eater.com/rss/index.xml",
           "website": "https://www.eater.com",
           "summary": "Restaurant news, city dining guides, and food trends."
-        }
-      ]
-    },
-    {
-      "name": "Travel & Outdoors",
-      "description": "Adventures, destinations, and the great outdoors.",
-      "feeds": [
+        },
         {
           "id": "lonely-planet",
           "name": "Lonely Planet",
@@ -908,35 +919,8 @@
       ]
     },
     {
-      "name": "Personal Finance",
-      "description": "Saving, investing, and managing your money.",
-      "feeds": [
-        {
-          "id": "mr-money-mustache",
-          "name": "Mr. Money Mustache",
-          "url": "https://www.mrmoneymustache.com/feed/",
-          "website": "https://www.mrmoneymustache.com",
-          "summary": "Financial independence through badassity."
-        },
-        {
-          "id": "of-dollars-and-data",
-          "name": "Of Dollars and Data",
-          "url": "https://ofdollarsanddata.com/feed/",
-          "website": "https://ofdollarsanddata.com",
-          "summary": "Data-driven personal finance and investing."
-        },
-        {
-          "id": "the-motley-fool",
-          "name": "The Motley Fool",
-          "url": "https://www.fool.com/feeds/index.aspx",
-          "website": "https://www.fool.com",
-          "summary": "Stock analysis, investing tips, and retirement planning."
-        }
-      ]
-    },
-    {
-      "name": "Long Reads & Essays",
-      "description": "Independent writers and deep thinkers.",
+      "name": "Long Reads & Indie",
+      "description": "Independent writers, essays, webcomics, and podcasts.",
       "feeds": [
         {
           "id": "kottke",
@@ -979,13 +963,7 @@
           "url": "https://www.astralcodexten.com/feed",
           "website": "https://www.astralcodexten.com",
           "summary": "Deep analysis on science, policy, and rationality by Scott Alexander."
-        }
-      ]
-    },
-    {
-      "name": "Comics & Humor",
-      "description": "Webcomics, satire, and things that make you laugh.",
-      "feeds": [
+        },
         {
           "id": "xkcd",
           "name": "xkcd",
@@ -1006,87 +984,7 @@
           "url": "https://www.theonion.com/rss",
           "website": "https://www.theonion.com",
           "summary": "America's finest news source. Satirical."
-        }
-      ]
-    },
-    {
-      "name": "Photography & Visual Arts",
-      "description": "Camera gear, technique, and visual storytelling.",
-      "feeds": [
-        {
-          "id": "petapixel",
-          "name": "PetaPixel",
-          "url": "https://petapixel.com/feed/",
-          "website": "https://petapixel.com",
-          "summary": "Photography news, reviews, and inspiration."
         },
-        {
-          "id": "colossal",
-          "name": "Colossal",
-          "url": "https://www.thisiscolossal.com/feed/",
-          "website": "https://www.thisiscolossal.com",
-          "summary": "Art, design, and visual culture from around the world."
-        },
-        {
-          "id": "the-photo-argus",
-          "name": "The Phoblographer",
-          "url": "https://www.thephoblographer.com/feed/",
-          "website": "https://www.thephoblographer.com",
-          "summary": "Camera reviews, photography tutorials, and industry news."
-        }
-      ]
-    },
-    {
-      "name": "History",
-      "description": "The past brought to life through research and storytelling.",
-      "feeds": [
-        {
-          "id": "smithsonian-history",
-          "name": "Smithsonian Magazine",
-          "url": "https://www.smithsonianmag.com/rss/history/",
-          "website": "https://www.smithsonianmag.com/history",
-          "summary": "History, archaeology, and culture from the Smithsonian."
-        },
-        {
-          "id": "history-today",
-          "name": "History Today",
-          "url": "https://www.historytoday.com/feed/rss.xml",
-          "website": "https://www.historytoday.com",
-          "summary": "History writing for a general audience since 1951."
-        }
-      ]
-    },
-    {
-      "name": "Books & Literature",
-      "description": "Reviews, author interviews, and the literary world.",
-      "feeds": [
-        {
-          "id": "lithub",
-          "name": "Literary Hub",
-          "url": "https://lithub.com/feed/",
-          "website": "https://lithub.com",
-          "summary": "The best of the literary internet — reviews, excerpts, and essays."
-        },
-        {
-          "id": "the-paris-review",
-          "name": "The Paris Review",
-          "url": "https://www.theparisreview.org/feed/",
-          "website": "https://www.theparisreview.org",
-          "summary": "Interviews, fiction, poetry, and literary art."
-        },
-        {
-          "id": "book-riot",
-          "name": "Book Riot",
-          "url": "https://bookriot.com/feed/",
-          "website": "https://bookriot.com",
-          "summary": "Book recommendations, reading lists, and literary news."
-        }
-      ]
-    },
-    {
-      "name": "Podcasts (Show Notes)",
-      "description": "Show notes and links from popular podcasts.",
-      "feeds": [
         {
           "id": "atp",
           "name": "Accidental Tech Podcast",
