@@ -1,7 +1,7 @@
 {
   "title": "Discover New Feeds",
   "subtitle": "Curated sources hand-picked for Amethyst readers.",
-  "updatedAt": "2026-03-29T00:00:00Z",
+  "updatedAt": "2026-04-14T00:00:00Z",
   "groups": [
     {
       "name": "News",
@@ -20,20 +20,6 @@
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "website": "https://www.bbc.com/news/world",
           "summary": "International news coverage from the BBC."
-        },
-        {
-          "id": "reuters-world",
-          "name": "Reuters",
-          "url": "https://www.reutersagency.com/feed/",
-          "website": "https://www.reuters.com",
-          "summary": "Wire-service reporting on global affairs."
-        },
-        {
-          "id": "ap-topnews",
-          "name": "Associated Press",
-          "url": "https://rsshub.app/apnews/topics/apf-topnews",
-          "website": "https://apnews.com",
-          "summary": "Top stories from the AP wire."
         },
         {
           "id": "pbs-newshour",
@@ -76,6 +62,13 @@
           "url": "https://www.cbc.ca/webfeed/rss/rss-topstories",
           "website": "https://www.cbc.ca/news",
           "summary": "Canadian and world news from the CBC."
+        },
+        {
+          "id": "propublica",
+          "name": "ProPublica",
+          "url": "https://feeds.propublica.org/propublica/main",
+          "website": "https://www.propublica.org",
+          "summary": "Pulitzer Prize-winning investigative journalism in the public interest."
         }
       ]
     },
@@ -98,13 +91,6 @@
           "summary": "Congressional news and political analysis."
         },
         {
-          "id": "fivethirtyeight",
-          "name": "FiveThirtyEight",
-          "url": "https://fivethirtyeight.com/feed/",
-          "website": "https://fivethirtyeight.com",
-          "summary": "Data-driven political analysis and polling."
-        },
-        {
           "id": "axios",
           "name": "Axios",
           "url": "https://api.axios.com/feed/",
@@ -114,7 +100,7 @@
         {
           "id": "lawfare",
           "name": "Lawfare",
-          "url": "https://www.lawfaremedia.org/feed",
+          "url": "https://feeds.feedburner.com/lawfare",
           "website": "https://www.lawfaremedia.org",
           "summary": "National security law and policy analysis."
         },
@@ -152,6 +138,27 @@
           "url": "https://restofworld.org/feed/latest/",
           "website": "https://restofworld.org",
           "summary": "How technology is reshaping life outside the West."
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy",
+          "url": "https://foreignpolicy.com/feed/",
+          "website": "https://foreignpolicy.com",
+          "summary": "Global affairs, diplomacy, and geopolitical analysis."
+        },
+        {
+          "id": "the-diplomat",
+          "name": "The Diplomat",
+          "url": "https://thediplomat.com/feed/",
+          "website": "https://thediplomat.com",
+          "summary": "In-depth coverage of the Asia-Pacific region."
+        },
+        {
+          "id": "silver-bulletin",
+          "name": "Silver Bulletin",
+          "url": "https://www.natesilver.net/feed",
+          "website": "https://www.natesilver.net",
+          "summary": "Data-driven political analysis and forecasting by Nate Silver."
         }
       ]
     },
@@ -230,13 +237,6 @@
           "summary": "PC hardware benchmarks, reviews, and build guides."
         },
         {
-          "id": "anandtech",
-          "name": "AnandTech",
-          "url": "https://www.anandtech.com/rss/",
-          "website": "https://www.anandtech.com",
-          "summary": "In-depth semiconductor and hardware analysis."
-        },
-        {
           "id": "openai-blog",
           "name": "OpenAI Blog",
           "url": "https://openai.com/blog/rss.xml",
@@ -277,6 +277,34 @@
           "url": "https://importai.substack.com/feed",
           "website": "https://importai.substack.com",
           "summary": "Weekly AI newsletter by Jack Clark covering research and policy."
+        },
+        {
+          "id": "404-media",
+          "name": "404 Media",
+          "url": "https://www.404media.co/rss/",
+          "website": "https://www.404media.co",
+          "summary": "Independent tech journalism on privacy, hacking, and digital culture."
+        },
+        {
+          "id": "platformer",
+          "name": "Platformer",
+          "url": "https://www.platformer.news/rss/",
+          "website": "https://www.platformer.news",
+          "summary": "Casey Newton on tech platforms, policy, and social media."
+        },
+        {
+          "id": "ieee-spectrum",
+          "name": "IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/feeds/feed.rss",
+          "website": "https://spectrum.ieee.org",
+          "summary": "Engineering, technology, and applied science from IEEE."
+        },
+        {
+          "id": "one-useful-thing",
+          "name": "One Useful Thing",
+          "url": "https://www.oneusefulthing.org/feed",
+          "website": "https://www.oneusefulthing.org",
+          "summary": "Ethan Mollick on practical AI use, research, and implications."
         }
       ]
     },
@@ -334,13 +362,6 @@
           "summary": "Market news, earnings, and portfolio tools."
         },
         {
-          "id": "matt-levine",
-          "name": "Money Stuff — Matt Levine",
-          "url": "https://www.bloomberg.com/account/newsletters/money-stuff.rss",
-          "website": "https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine",
-          "summary": "Bloomberg's popular financial newsletter with wit and insight."
-        },
-        {
           "id": "stratechery",
           "name": "Stratechery",
           "url": "https://stratechery.com/feed/",
@@ -348,32 +369,11 @@
           "summary": "Business strategy and technology analysis by Ben Thompson."
         },
         {
-          "id": "every-main",
-          "name": "Every",
-          "url": "https://every.to/feed.xml",
-          "website": "https://every.to",
-          "summary": "Ideas about tech, AI, and modern work."
-        },
-        {
           "id": "saastr",
           "name": "SaaStr",
           "url": "https://www.saastr.com/feed/",
           "website": "https://www.saastr.com",
           "summary": "SaaS strategy, scaling, and founder advice."
-        },
-        {
-          "id": "first-round-review",
-          "name": "First Round Review",
-          "url": "https://review.firstround.com/feed.xml",
-          "website": "https://review.firstround.com",
-          "summary": "Tactical advice for startup builders from First Round Capital."
-        },
-        {
-          "id": "paul-graham",
-          "name": "Paul Graham Essays",
-          "url": "https://www.paulgraham.com/rss.html",
-          "website": "https://www.paulgraham.com",
-          "summary": "Essays on startups, programming, and ideas from the YC co-founder."
         },
         {
           "id": "coindesk",
@@ -416,6 +416,27 @@
           "url": "https://www.fool.com/feeds/index.aspx",
           "website": "https://www.fool.com",
           "summary": "Stock analysis, investing tips, and retirement planning."
+        },
+        {
+          "id": "the-diff",
+          "name": "The Diff",
+          "url": "https://www.thediff.co/feed",
+          "website": "https://www.thediff.co",
+          "summary": "Finance, technology, and inflection points by Byrne Hobart."
+        },
+        {
+          "id": "lennys-newsletter",
+          "name": "Lenny's Newsletter",
+          "url": "https://www.lennysnewsletter.com/feed",
+          "website": "https://www.lennysnewsletter.com",
+          "summary": "Advice on product, growth, and career from Lenny Rachitsky."
+        },
+        {
+          "id": "construction-physics",
+          "name": "Construction Physics",
+          "url": "https://www.construction-physics.com/feed",
+          "website": "https://www.construction-physics.com",
+          "summary": "Brian Potter on the building industry, manufacturing, and progress."
         }
       ]
     },
@@ -436,6 +457,13 @@
           "url": "https://www.nature.com/nature.rss",
           "website": "https://www.nature.com",
           "summary": "Peer-reviewed research and science news."
+        },
+        {
+          "id": "science-aaas",
+          "name": "Science (AAAS)",
+          "url": "https://www.science.org/rss/news_current.xml",
+          "website": "https://www.science.org",
+          "summary": "Breaking science news from the journal Science."
         },
         {
           "id": "science-daily",
@@ -487,13 +515,6 @@
           "summary": "Launch schedules, mission tracking, and space industry news."
         },
         {
-          "id": "planetary-society",
-          "name": "The Planetary Society",
-          "url": "https://www.planetary.org/feed",
-          "website": "https://www.planetary.org",
-          "summary": "Space advocacy, exploration updates, and citizen science."
-        },
-        {
           "id": "esa-news",
           "name": "European Space Agency",
           "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
@@ -508,18 +529,18 @@
           "summary": "Health, medicine, and life sciences reporting."
         },
         {
-          "id": "medical-news-today",
-          "name": "Medical News Today",
-          "url": "https://www.medicalnewstoday.com/newsfeeds/rss",
-          "website": "https://www.medicalnewstoday.com",
-          "summary": "Evidence-based health and medical news."
+          "id": "the-conversation",
+          "name": "The Conversation",
+          "url": "https://theconversation.com/us/articles.atom",
+          "website": "https://theconversation.com",
+          "summary": "Academic experts writing for the public on science and society."
         },
         {
-          "id": "nih-news",
-          "name": "NIH News",
-          "url": "https://www.nih.gov/news-events/news-releases/feed",
-          "website": "https://www.nih.gov",
-          "summary": "Research findings and health news from the NIH."
+          "id": "live-science",
+          "name": "Live Science",
+          "url": "https://www.livescience.com/feeds/all",
+          "website": "https://www.livescience.com",
+          "summary": "Fascinating discoveries in science, health, and the natural world."
         },
         {
           "id": "carbon-brief",
@@ -548,6 +569,20 @@
           "url": "https://insideclimatenews.org/feed/",
           "website": "https://insideclimatenews.org",
           "summary": "Pulitzer Prize-winning climate and energy coverage."
+        },
+        {
+          "id": "canary-media",
+          "name": "Canary Media",
+          "url": "https://www.canarymedia.com/feed",
+          "website": "https://www.canarymedia.com",
+          "summary": "Independent clean energy and climate solutions journalism."
+        },
+        {
+          "id": "electrek",
+          "name": "Electrek",
+          "url": "https://electrek.co/feed/",
+          "website": "https://electrek.co",
+          "summary": "Electric vehicles, solar, and sustainable energy news."
         }
       ]
     },
@@ -582,13 +617,6 @@
           "url": "https://pitchfork.com/feed/feed-news/rss",
           "website": "https://pitchfork.com",
           "summary": "Music reviews, features, and new releases."
-        },
-        {
-          "id": "vulture",
-          "name": "Vulture",
-          "url": "https://www.vulture.com/feed/rss/index.xml",
-          "website": "https://www.vulture.com",
-          "summary": "Pop culture, TV recaps, and entertainment criticism."
         },
         {
           "id": "consequence-of-sound",
@@ -647,6 +675,13 @@
           "summary": "Game reviews, previews, and industry coverage."
         },
         {
+          "id": "aftermath",
+          "name": "Aftermath",
+          "url": "https://aftermath.site/feed",
+          "website": "https://aftermath.site",
+          "summary": "Independent journalism on games, the internet, and culture."
+        },
+        {
           "id": "espn-top",
           "name": "ESPN",
           "url": "https://www.espn.com/espn/rss/news",
@@ -656,7 +691,7 @@
         {
           "id": "the-athletic",
           "name": "The Athletic",
-          "url": "https://theathletic.com/feed/",
+          "url": "https://theathletic.com/rss-feed/",
           "website": "https://theathletic.com",
           "summary": "In-depth sports journalism and team coverage."
         },
@@ -668,11 +703,11 @@
           "summary": "Global sports coverage from the BBC."
         },
         {
-          "id": "deadspin",
-          "name": "Deadspin",
-          "url": "https://deadspin.com/rss",
-          "website": "https://deadspin.com",
-          "summary": "Sports news and culture with an irreverent voice."
+          "id": "defector",
+          "name": "Defector",
+          "url": "https://defector.com/rss",
+          "website": "https://defector.com",
+          "summary": "Worker-owned sports, culture, and off-beat journalism."
         }
       ]
     },
@@ -772,6 +807,20 @@
           "summary": "Software architecture, refactoring, and engineering practices."
         },
         {
+          "id": "the-markup",
+          "name": "The Markup",
+          "url": "https://themarkup.org/feeds/rss.xml",
+          "website": "https://themarkup.org",
+          "summary": "Data-driven investigations into technology and its harms."
+        },
+        {
+          "id": "eff",
+          "name": "Electronic Frontier Foundation",
+          "url": "https://www.eff.org/rss/updates.xml",
+          "website": "https://www.eff.org",
+          "summary": "Digital rights, privacy, and free expression advocacy."
+        },
+        {
           "id": "krebs-on-security",
           "name": "Krebs on Security",
           "url": "https://krebsonsecurity.com/feed/",
@@ -815,7 +864,7 @@
         {
           "id": "the-paris-review",
           "name": "The Paris Review",
-          "url": "https://www.theparisreview.org/feed/",
+          "url": "https://www.theparisreview.org/blog/feed/",
           "website": "https://www.theparisreview.org",
           "summary": "Interviews, fiction, poetry, and literary art."
         },
@@ -855,25 +904,25 @@
           "summary": "History, archaeology, and culture from the Smithsonian."
         },
         {
-          "id": "history-today",
-          "name": "History Today",
-          "url": "https://www.historytoday.com/feed/rss.xml",
-          "website": "https://www.historytoday.com",
-          "summary": "History writing for a general audience since 1951."
+          "id": "new-yorker",
+          "name": "The New Yorker",
+          "url": "https://www.newyorker.com/feed/everything",
+          "website": "https://www.newyorker.com",
+          "summary": "Reporting, commentary, criticism, and fiction."
+        },
+        {
+          "id": "aeon",
+          "name": "Aeon",
+          "url": "https://aeon.co/feed.rss",
+          "website": "https://aeon.co",
+          "summary": "Deep essays on philosophy, science, psychology, and culture."
         }
       ]
     },
     {
       "name": "Lifestyle",
-      "description": "Food, cooking, travel, and the outdoors.",
+      "description": "Food, cooking, travel, product reviews, and the outdoors.",
       "feeds": [
-        {
-          "id": "serious-eats",
-          "name": "Serious Eats",
-          "url": "https://www.seriouseats.com/feed",
-          "website": "https://www.seriouseats.com",
-          "summary": "Science-driven recipes and food technique guides."
-        },
         {
           "id": "bon-appetit",
           "name": "Bon Appétit",
@@ -896,13 +945,6 @@
           "summary": "Restaurant news, city dining guides, and food trends."
         },
         {
-          "id": "lonely-planet",
-          "name": "Lonely Planet",
-          "url": "https://www.lonelyplanet.com/feed.xml",
-          "website": "https://www.lonelyplanet.com",
-          "summary": "Travel guides, tips, and destination inspiration."
-        },
-        {
           "id": "atlas-obscura",
           "name": "Atlas Obscura",
           "url": "https://www.atlasobscura.com/feeds/latest",
@@ -915,6 +957,20 @@
           "url": "https://www.outsideonline.com/feed/",
           "website": "https://www.outsideonline.com",
           "summary": "Adventure, outdoor fitness, and the active lifestyle."
+        },
+        {
+          "id": "skift",
+          "name": "Skift",
+          "url": "https://skift.com/feed/",
+          "website": "https://skift.com",
+          "summary": "Travel industry intelligence, trends, and destination news."
+        },
+        {
+          "id": "wirecutter",
+          "name": "Wirecutter",
+          "url": "https://www.nytimes.com/wirecutter/feed/",
+          "website": "https://www.nytimes.com/wirecutter",
+          "summary": "Rigorously tested product recommendations and buying guides."
         }
       ]
     },
@@ -963,6 +1019,20 @@
           "url": "https://www.astralcodexten.com/feed",
           "website": "https://www.astralcodexten.com",
           "summary": "Deep analysis on science, policy, and rationality by Scott Alexander."
+        },
+        {
+          "id": "molly-white",
+          "name": "Molly White",
+          "url": "https://www.mollywhite.net/feed/feed.xml",
+          "website": "https://www.mollywhite.net",
+          "summary": "Tech criticism, web3 skepticism, and accountability journalism."
+        },
+        {
+          "id": "noahpinion",
+          "name": "Noahpinion",
+          "url": "https://www.noahpinion.blog/feed",
+          "website": "https://www.noahpinion.blog",
+          "summary": "Noah Smith on economics, technology, and geopolitics."
         },
         {
           "id": "xkcd",
