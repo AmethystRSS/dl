@@ -1,7 +1,7 @@
 {
   "title": "Discover New Feeds",
   "subtitle": "Curated sources hand-picked for Amethyst readers.",
-  "updatedAt": "2026-04-14T00:00:00Z",
+  "updatedAt": "2026-04-22T00:00:00Z",
   "groups": [
     {
       "name": "News",
@@ -305,6 +305,75 @@
           "url": "https://www.oneusefulthing.org/feed",
           "website": "https://www.oneusefulthing.org",
           "summary": "Ethan Mollick on practical AI use, research, and implications."
+        }
+      ]
+    },
+    {
+      "name": "Reddit via RSS",
+      "description": "Popular subreddits also publish RSS feed URLs, so you can follow Reddit inside Amethyst like any other source.",
+      "feeds": [
+        {
+          "id": "reddit-apple",
+          "name": "r/apple",
+          "url": "https://www.reddit.com/r/apple/.rss",
+          "website": "https://www.reddit.com/r/apple/",
+          "summary": "Apple hardware, software, event news, and discussion from one of Reddit's biggest Apple communities."
+        },
+        {
+          "id": "reddit-worldnews",
+          "name": "r/worldnews",
+          "url": "https://www.reddit.com/r/worldnews/.rss",
+          "website": "https://www.reddit.com/r/worldnews/",
+          "summary": "Major international headlines and discussion from one of Reddit's largest news communities."
+        },
+        {
+          "id": "reddit-technology",
+          "name": "r/technology",
+          "url": "https://www.reddit.com/r/technology/.rss",
+          "website": "https://www.reddit.com/r/technology/",
+          "summary": "High-volume technology news, product launches, and platform debates from Reddit's tech community."
+        },
+        {
+          "id": "reddit-programming",
+          "name": "r/programming",
+          "url": "https://www.reddit.com/r/programming/.rss",
+          "website": "https://www.reddit.com/r/programming/",
+          "summary": "Developer news, essays, tools, and language discussions from the programming community."
+        },
+        {
+          "id": "reddit-science",
+          "name": "r/science",
+          "url": "https://www.reddit.com/r/science/.rss",
+          "website": "https://www.reddit.com/r/science/",
+          "summary": "Research news, expert discussion, and science stories from one of Reddit's most-followed communities."
+        },
+        {
+          "id": "reddit-space",
+          "name": "r/space",
+          "url": "https://www.reddit.com/r/space/.rss",
+          "website": "https://www.reddit.com/r/space/",
+          "summary": "Spaceflight, astronomy, launches, and mission updates from Reddit's space community."
+        },
+        {
+          "id": "reddit-futurology",
+          "name": "r/futurology",
+          "url": "https://www.reddit.com/r/futurology/.rss",
+          "website": "https://www.reddit.com/r/futurology/",
+          "summary": "Future-focused discussion about AI, climate, biotech, and long-term technological change."
+        },
+        {
+          "id": "reddit-gadgets",
+          "name": "r/gadgets",
+          "url": "https://www.reddit.com/r/gadgets/.rss",
+          "website": "https://www.reddit.com/r/gadgets/",
+          "summary": "Consumer electronics, device launches, and gadget news in a feed-friendly format."
+        },
+        {
+          "id": "reddit-personalfinance",
+          "name": "r/personalfinance",
+          "url": "https://www.reddit.com/r/personalfinance/.rss",
+          "website": "https://www.reddit.com/r/personalfinance/",
+          "summary": "Practical money advice, consumer finance discussions, and personal finance news from a huge Reddit community."
         }
       ]
     },
