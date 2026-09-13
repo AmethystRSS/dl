@@ -1,7 +1,7 @@
 {
   "title": "Discover New Feeds",
   "subtitle": "Curated sources hand-picked for Amethyst readers.",
-  "updatedAt": "2026-04-22T00:00:00Z",
+  "updatedAt": "2026-09-11T00:00:00Z",
   "groups": [
     {
       "name": "News",
@@ -305,6 +305,41 @@
           "url": "https://www.oneusefulthing.org/feed",
           "website": "https://www.oneusefulthing.org",
           "summary": "Ethan Mollick on practical AI use, research, and implications."
+        },
+        {
+          "id": "macstories",
+          "name": "MacStories",
+          "url": "https://www.macstories.net/feed/",
+          "website": "https://www.macstories.net",
+          "summary": "Apps, shortcuts and iOS power-user coverage."
+        },
+        {
+          "id": "six-colors",
+          "name": "Six Colors",
+          "url": "https://sixcolors.com/feed/",
+          "website": "https://sixcolors.com",
+          "summary": "Jason Snell and Dan Moren on Apple and the tech around it."
+        },
+        {
+          "id": "michael-tsai",
+          "name": "Michael Tsai",
+          "url": "https://mjtsai.com/blog/feed/",
+          "website": "https://mjtsai.com/blog",
+          "summary": "A long-running link blog on Apple developer news."
+        },
+        {
+          "id": "eclectic-light",
+          "name": "The Eclectic Light Company",
+          "url": "https://eclecticlight.co/feed/",
+          "website": "https://eclecticlight.co",
+          "summary": "Deep macOS internals, troubleshooting and Mac history."
+        },
+        {
+          "id": "simon-willison",
+          "name": "Simon Willison's Weblog",
+          "url": "https://simonwillison.net/atom/everything/",
+          "website": "https://simonwillison.net",
+          "summary": "Hands-on notes from the frontier of LLM tooling."
         }
       ]
     },
@@ -506,6 +541,27 @@
           "url": "https://www.construction-physics.com/feed",
           "website": "https://www.construction-physics.com",
           "summary": "Brian Potter on the building industry, manufacturing, and progress."
+        },
+        {
+          "id": "financial-samurai",
+          "name": "Financial Samurai",
+          "url": "https://www.financialsamurai.com/feed/",
+          "website": "https://www.financialsamurai.com",
+          "summary": "Personal finance and early-retirement strategy."
+        },
+        {
+          "id": "get-rich-slowly",
+          "name": "Get Rich Slowly",
+          "url": "https://www.getrichslowly.org/feed/",
+          "website": "https://www.getrichslowly.org",
+          "summary": "Practical money habits without the hype."
+        },
+        {
+          "id": "wealth-common-sense",
+          "name": "A Wealth of Common Sense",
+          "url": "https://awealthofcommonsense.com/feed/",
+          "website": "https://awealthofcommonsense.com",
+          "summary": "Ben Carlson on markets, investing and behavior."
         }
       ]
     },
@@ -652,6 +708,20 @@
           "url": "https://electrek.co/feed/",
           "website": "https://electrek.co",
           "summary": "Electric vehicles, solar, and sustainable energy news."
+        },
+        {
+          "id": "universe-today",
+          "name": "Universe Today",
+          "url": "https://www.universetoday.com/rss.xml",
+          "website": "https://www.universetoday.com",
+          "summary": "Daily astronomy and space-science reporting."
+        },
+        {
+          "id": "nasaspaceflight",
+          "name": "NASASpaceflight",
+          "url": "https://www.nasaspaceflight.com/feed/",
+          "website": "https://www.nasaspaceflight.com",
+          "summary": "Launch coverage and rocket-program deep dives."
         }
       ]
     },
@@ -777,6 +847,55 @@
           "url": "https://defector.com/rss",
           "website": "https://defector.com",
           "summary": "Worker-owned sports, culture, and off-beat journalism."
+        },
+        {
+          "id": "indiewire",
+          "name": "IndieWire",
+          "url": "https://www.indiewire.com/feed/",
+          "website": "https://www.indiewire.com",
+          "summary": "Independent film, festivals and craft interviews."
+        },
+        {
+          "id": "deadline",
+          "name": "Deadline",
+          "url": "https://deadline.com/feed/",
+          "website": "https://deadline.com",
+          "summary": "Breaking Hollywood business and casting news."
+        },
+        {
+          "id": "vulture",
+          "name": "Vulture",
+          "url": "https://feeds.feedburner.com/nymag/vulture",
+          "website": "https://www.vulture.com",
+          "summary": "New York Magazine's pop-culture desk."
+        },
+        {
+          "id": "roger-ebert",
+          "name": "RogerEbert.com",
+          "url": "https://www.rogerebert.com/feed",
+          "website": "https://www.rogerebert.com",
+          "summary": "Film reviews and criticism carrying on Ebert's work."
+        },
+        {
+          "id": "guardian-sport",
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/rss",
+          "website": "https://www.theguardian.com/sport",
+          "summary": "Global sport reporting and comment."
+        },
+        {
+          "id": "sbnation",
+          "name": "SB Nation",
+          "url": "https://www.sbnation.com/rss/index.xml",
+          "website": "https://www.sbnation.com",
+          "summary": "Team-by-team American sports coverage."
+        },
+        {
+          "id": "yahoo-sports",
+          "name": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/rss/",
+          "website": "https://sports.yahoo.com",
+          "summary": "Scores, headlines and analysis across major leagues."
         }
       ]
     },
@@ -916,6 +1035,34 @@
           "url": "https://www.darkreading.com/rss.xml",
           "website": "https://www.darkreading.com",
           "summary": "Enterprise security news and analysis."
+        },
+        {
+          "id": "bleeping-computer",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/feed/",
+          "website": "https://www.bleepingcomputer.com",
+          "summary": "Breach reporting, malware analysis and patch news."
+        },
+        {
+          "id": "project-zero",
+          "name": "Google Project Zero",
+          "url": "https://projectzero.google/feed.xml",
+          "website": "https://projectzero.google",
+          "summary": "Deep write-ups of zero-day vulnerability research."
+        },
+        {
+          "id": "josh-comeau",
+          "name": "Josh Comeau",
+          "url": "https://www.joshwcomeau.com/rss.xml",
+          "website": "https://www.joshwcomeau.com",
+          "summary": "Interactive essays on CSS, React and web animation."
+        },
+        {
+          "id": "ahmad-shadeed",
+          "name": "Ahmad Shadeed",
+          "url": "https://ishadeed.com/feed.xml",
+          "website": "https://ishadeed.com",
+          "summary": "Detailed CSS and modern layout breakdowns."
         }
       ]
     },
@@ -1040,6 +1187,27 @@
           "url": "https://www.nytimes.com/wirecutter/feed/",
           "website": "https://www.nytimes.com/wirecutter",
           "summary": "Rigorously tested product recommendations and buying guides."
+        },
+        {
+          "id": "the-kitchn",
+          "name": "The Kitchn",
+          "url": "https://www.thekitchn.com/main.rss",
+          "website": "https://www.thekitchn.com",
+          "summary": "Everyday recipes and small-kitchen know-how."
+        },
+        {
+          "id": "nyt-cooking",
+          "name": "NYT Food",
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/DiningandWine.xml",
+          "website": "https://www.nytimes.com/section/food",
+          "summary": "Recipes, restaurants and food writing from the Times."
+        },
+        {
+          "id": "apartment-therapy",
+          "name": "Apartment Therapy",
+          "url": "https://www.apartmenttherapy.com/main.rss",
+          "website": "https://www.apartmenttherapy.com",
+          "summary": "Home design and organization for real spaces."
         }
       ]
     },
@@ -1144,6 +1312,534 @@
           "url": "https://daringfireball.net/thetalkshow/rss",
           "website": "https://daringfireball.net/thetalkshow",
           "summary": "John Gruber's long-running podcast on Apple and tech."
+        }
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "id": "daily-briefing",
+      "name": "Daily Briefing",
+      "tagline": "A balanced morning read from wire desks and public broadcasters.",
+      "symbol": "newspaper",
+      "folderSymbol": "newspaper",
+      "folderName": "News",
+      "feeds": [
+        {
+          "id": "nyt-homepage"
+        },
+        {
+          "id": "bbc-world"
+        },
+        {
+          "id": "npr-news"
+        },
+        {
+          "id": "guardian-world"
+        },
+        {
+          "id": "axios"
+        },
+        {
+          "id": "pbs-newshour"
+        },
+        {
+          "id": "abc-news"
+        },
+        {
+          "id": "propublica"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "name": "All Things Apple",
+      "tagline": "Everything out of Cupertino, from the news desks to the indie blogs.",
+      "symbol": "desktopcomputer",
+      "folderSymbol": "desktopcomputer",
+      "folderName": "Apple",
+      "feeds": [
+        {
+          "id": "9to5mac"
+        },
+        {
+          "id": "macrumors"
+        },
+        {
+          "id": "daring-fireball"
+        },
+        {
+          "id": "macstories"
+        },
+        {
+          "id": "six-colors"
+        },
+        {
+          "id": "michael-tsai"
+        },
+        {
+          "id": "eclectic-light"
+        },
+        {
+          "id": "the-talk-show"
+        },
+        {
+          "id": "atp"
+        },
+        {
+          "id": "reddit-apple"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI, Explained",
+      "tagline": "Lab announcements and the people making sense of them.",
+      "symbol": "brain",
+      "folderSymbol": "brain.head.profile",
+      "folderName": "AI",
+      "feeds": [
+        {
+          "id": "openai-blog"
+        },
+        {
+          "id": "deepmind-blog"
+        },
+        {
+          "id": "mit-tech-ai"
+        },
+        {
+          "id": "huggingface-blog"
+        },
+        {
+          "id": "the-gradient"
+        },
+        {
+          "id": "import-ai"
+        },
+        {
+          "id": "one-useful-thing"
+        },
+        {
+          "id": "simon-willison"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "Money & Markets",
+      "tagline": "Market moves, earnings and the strategy behind them.",
+      "symbol": "chart.line.uptrend.xyaxis",
+      "folderSymbol": "chart.line.uptrend.xyaxis",
+      "folderName": "Markets",
+      "feeds": [
+        {
+          "id": "wsj-markets"
+        },
+        {
+          "id": "ft-home"
+        },
+        {
+          "id": "cnbc-top"
+        },
+        {
+          "id": "economist-finance"
+        },
+        {
+          "id": "bloomberg-markets"
+        },
+        {
+          "id": "marketwatch"
+        },
+        {
+          "id": "stratechery"
+        },
+        {
+          "id": "the-diff"
+        }
+      ]
+    },
+    {
+      "id": "personal-finance",
+      "name": "Personal Finance",
+      "tagline": "Saving, investing and retiring early, minus the hype.",
+      "symbol": "banknote",
+      "folderSymbol": "dollarsign.circle",
+      "folderName": "Personal Finance",
+      "feeds": [
+        {
+          "id": "mr-money-mustache"
+        },
+        {
+          "id": "of-dollars-and-data"
+        },
+        {
+          "id": "the-motley-fool"
+        },
+        {
+          "id": "financial-samurai"
+        },
+        {
+          "id": "get-rich-slowly"
+        },
+        {
+          "id": "wealth-common-sense"
+        },
+        {
+          "id": "reddit-personalfinance"
+        }
+      ]
+    },
+    {
+      "id": "developers",
+      "name": "Developer Reading List",
+      "tagline": "Engineering blogs worth keeping up with, Swift-heavy.",
+      "symbol": "chevron.left.forwardslash.chevron.right",
+      "folderSymbol": "cpu",
+      "folderName": "Developers",
+      "feeds": [
+        {
+          "id": "swift-by-sundell"
+        },
+        {
+          "id": "nshipster"
+        },
+        {
+          "id": "donnywals"
+        },
+        {
+          "id": "julia-evans"
+        },
+        {
+          "id": "overreacted"
+        },
+        {
+          "id": "pragmatic-engineer"
+        },
+        {
+          "id": "martin-fowler"
+        },
+        {
+          "id": "lobsters"
+        },
+        {
+          "id": "hacker-news"
+        }
+      ]
+    },
+    {
+      "id": "web-design",
+      "name": "Web & Frontend",
+      "tagline": "CSS, layout and interface craft from people who teach it well.",
+      "symbol": "paintbrush.pointed",
+      "folderSymbol": "paintpalette",
+      "folderName": "Web Design",
+      "feeds": [
+        {
+          "id": "smashing-magazine"
+        },
+        {
+          "id": "css-tricks"
+        },
+        {
+          "id": "a-list-apart"
+        },
+        {
+          "id": "josh-comeau"
+        },
+        {
+          "id": "ahmad-shadeed"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security Watch",
+      "tagline": "Breaches, vulnerability research and digital-rights reporting.",
+      "symbol": "lock.shield",
+      "folderSymbol": "bolt",
+      "folderName": "Security",
+      "feeds": [
+        {
+          "id": "krebs-on-security"
+        },
+        {
+          "id": "schneier"
+        },
+        {
+          "id": "the-hacker-news"
+        },
+        {
+          "id": "dark-reading"
+        },
+        {
+          "id": "bleeping-computer"
+        },
+        {
+          "id": "project-zero"
+        },
+        {
+          "id": "eff"
+        },
+        {
+          "id": "the-markup"
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "name": "Space & Astronomy",
+      "tagline": "Launches, missions and what the telescopes are finding.",
+      "symbol": "moon.stars",
+      "folderSymbol": "star",
+      "folderName": "Space",
+      "feeds": [
+        {
+          "id": "nasa-breaking"
+        },
+        {
+          "id": "space-com"
+        },
+        {
+          "id": "spaceflight-now"
+        },
+        {
+          "id": "esa-news"
+        },
+        {
+          "id": "universe-today"
+        },
+        {
+          "id": "nasaspaceflight"
+        },
+        {
+          "id": "reddit-space"
+        }
+      ]
+    },
+    {
+      "id": "climate",
+      "name": "Climate & Energy",
+      "tagline": "The energy transition, covered by people who follow the data.",
+      "symbol": "leaf",
+      "folderSymbol": "leaf",
+      "folderName": "Climate",
+      "feeds": [
+        {
+          "id": "carbon-brief"
+        },
+        {
+          "id": "grist"
+        },
+        {
+          "id": "yale-e360"
+        },
+        {
+          "id": "inside-climate"
+        },
+        {
+          "id": "canary-media"
+        },
+        {
+          "id": "electrek"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science Weekly",
+      "tagline": "Journals, explainers and the researchers behind the papers.",
+      "symbol": "atom",
+      "folderSymbol": "atom",
+      "folderName": "Science",
+      "feeds": [
+        {
+          "id": "nature-news"
+        },
+        {
+          "id": "science-aaas"
+        },
+        {
+          "id": "quanta-magazine"
+        },
+        {
+          "id": "new-scientist"
+        },
+        {
+          "id": "scientific-american"
+        },
+        {
+          "id": "phys-org"
+        },
+        {
+          "id": "the-conversation"
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "name": "Game Night",
+      "tagline": "Reviews, industry news and the writers worth reading on both.",
+      "symbol": "gamecontroller",
+      "folderSymbol": "gamecontroller",
+      "folderName": "Gaming",
+      "feeds": [
+        {
+          "id": "polygon"
+        },
+        {
+          "id": "ign"
+        },
+        {
+          "id": "kotaku"
+        },
+        {
+          "id": "eurogamer"
+        },
+        {
+          "id": "rock-paper-shotgun"
+        },
+        {
+          "id": "nintendo-life"
+        },
+        {
+          "id": "gamespot"
+        },
+        {
+          "id": "aftermath"
+        }
+      ]
+    },
+    {
+      "id": "screen-sound",
+      "name": "Screen & Sound",
+      "tagline": "Film, television and music criticism plus the business behind it.",
+      "symbol": "film",
+      "folderSymbol": "film",
+      "folderName": "Screen & Sound",
+      "feeds": [
+        {
+          "id": "variety"
+        },
+        {
+          "id": "hollywood-reporter"
+        },
+        {
+          "id": "the-av-club"
+        },
+        {
+          "id": "indiewire"
+        },
+        {
+          "id": "deadline"
+        },
+        {
+          "id": "vulture"
+        },
+        {
+          "id": "roger-ebert"
+        },
+        {
+          "id": "pitchfork"
+        },
+        {
+          "id": "consequence-of-sound"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports Desk",
+      "tagline": "Scores and standings, plus writing that outlasts the game.",
+      "symbol": "sportscourt",
+      "folderSymbol": "trophy",
+      "folderName": "Sports",
+      "feeds": [
+        {
+          "id": "espn-top"
+        },
+        {
+          "id": "the-athletic"
+        },
+        {
+          "id": "bbc-sport"
+        },
+        {
+          "id": "guardian-sport"
+        },
+        {
+          "id": "sbnation"
+        },
+        {
+          "id": "yahoo-sports"
+        },
+        {
+          "id": "defector"
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen & Table",
+      "tagline": "Recipes, restaurants and making a space feel lived-in.",
+      "symbol": "fork.knife",
+      "folderSymbol": "fork.knife",
+      "folderName": "Food & Home",
+      "feeds": [
+        {
+          "id": "bon-appetit"
+        },
+        {
+          "id": "smitten-kitchen"
+        },
+        {
+          "id": "eater"
+        },
+        {
+          "id": "the-kitchn"
+        },
+        {
+          "id": "nyt-cooking"
+        },
+        {
+          "id": "apartment-therapy"
+        },
+        {
+          "id": "wirecutter"
+        }
+      ]
+    },
+    {
+      "id": "longform",
+      "name": "Longform Sunday",
+      "tagline": "Essays and reported features for when you have an hour.",
+      "symbol": "book",
+      "folderSymbol": "text.book.closed",
+      "folderName": "Longform",
+      "feeds": [
+        {
+          "id": "longreads"
+        },
+        {
+          "id": "the-browser"
+        },
+        {
+          "id": "aeon"
+        },
+        {
+          "id": "new-yorker"
+        },
+        {
+          "id": "brain-pickings"
+        },
+        {
+          "id": "lithub"
+        },
+        {
+          "id": "kottke"
+        },
+        {
+          "id": "wait-but-why"
         }
       ]
     }
